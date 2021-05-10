@@ -1,0 +1,86 @@
+@import 'https://fonts.googleapis.com/css?family-Oswald:400,700';
+@import 'https://fonts.googleapis.com/css?family-Montserrat,700';
+
+.a1{
+    background-color: black;
+    color:yellow;
+    padding: 8px 0px 6px 40px;
+    height: 50px;
+}
+.a1 h1{
+     display: inline;
+     font-family: 'Oswald',sans-serif;
+     font-weight: 400;
+     float: left;
+     margin-top: 0px;
+     margin-right: 10px;
+}
+nav ul{
+    display: inline;
+    padding: 0px;
+    float: left;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    float: left;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+#nav{
+    font-family: 'Montserrat',sans-serif;
+}
+.action, nav ul li:hover{
+    background-color: blue;
+    border-radius: 2px;
+}
+.sub-menu{
+    display: none;
+}
+nav ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color:black;
+    margin-top: 2px;
+    margin-left: -15px;
+}
+nav ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+nav ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted;
+
+    border-radius: 5px;
+}
+nav ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
+.footer{
+    background-color: black;
+    font-size: 30px;
+    padding: 3.5%;
+}
+.t1{
+    margin: 1%;
+    color:wheat;
+}
+.t2{
+    margin: 1% 1% 1% 39%;
+    color: wheat;
+}
+.t3{
+    margin: 1% 1% 1% 5%;
+    color: wheat;
+}
+.create{
+    background-color: powderblue;
+}
